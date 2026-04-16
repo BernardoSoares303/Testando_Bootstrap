@@ -9,7 +9,7 @@ html,body {
     height: 100%;
 }
 
-.container-fluid {
+.container-fluid{
     display: grid;
     grid-template-areas:
         "header header header"
@@ -44,6 +44,8 @@ html,body {
     grid-area: main;
     background: #ddd;
     padding: 1rem;
+    align-content:center;
+    padding-left: 4.5rem;
 }
 
 .footer {
@@ -54,7 +56,9 @@ html,body {
     padding: 1rem;
 }
 
-
+.cartao{
+    padding: 1rem;
+}
 .menu-lateral {
     display: flex;
     flex-direction: column; /* botões um embaixo do outro */
