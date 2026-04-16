@@ -54,16 +54,23 @@ html,body {
     padding: 1rem;
 }
 
-#MenuLatera{
+
+.menu-lateral {
     display: flex;
-    text-align: center;
-    align-items: center;
-    align-content: center;
+    flex-direction: column; /* botões um embaixo do outro */
+    align-items: center;    /* centraliza horizontalmente */
 }
 
-#BotaoLateral{
+.botao-lateral {
     background-color: blueviolet;
     border-color: black;
     border-width: 2px;
     margin: 5px;
+    width: 200px; /* opcional, para alinhar melhor */
+}
+
+.botao-lateral:hover{
+    background-color: rgb(172, 106, 233);
+    border-color: rgb(53, 16, 87);
+    color: black;
 }
